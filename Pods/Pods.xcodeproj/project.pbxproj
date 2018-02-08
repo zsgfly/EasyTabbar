@@ -7,51 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006611F8C20C4FD8144BCEACFAF2AC0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		88F81872C3C793CE438FCD45F7183BD3 /* Pods-EasyTabbarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A37A9DCAE7E0C66A020F32461C16F /* Pods-EasyTabbarDemo-dummy.m */; };
+		0B6CF37EACD54AFECDEF3795FD001720 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		38DF12ADB2CF60204878E12658AC1834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48E4D395A4CA47FF7E2EBE79015D5A0E /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A17701B3277219BFA10428AD625B1FE /* Pods-EasyTabbarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A37A9DCAE7E0C66A020F32461C16F /* Pods-EasyTabbarDemo-dummy.m */; };
+		790DAA647646231FE957CDD0FF918C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A60AB76AC4B42112C369654A450CAA65 /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */; };
+		BE2668F7C08A641F5EB7F72FA02E227F /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D52D08F35B007E27E3298F9C2B44ED7B /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */; };
+		D9C1B4A120B4C20901654F5AE02D9D84 /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C72076601D127B2DFF0AD53C67D1D1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6FD133B65E4028E8922205200C3FD88;
+			remoteInfo = SDAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
 		083A12EF147E6D4808E68A31C1B75D28 /* Pods-EasyTabbarDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyTabbarDemo-resources.sh"; sourceTree = "<group>"; };
+		08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		2074C7D9E35D223C038EA04201169F91 /* libPods-EasyTabbarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EasyTabbarDemo.a"; path = "libPods-EasyTabbarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		2E250C88863FD6746C3D8807839BFC16 /* Pods-EasyTabbarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyTabbarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		31F89D1F0C1B7B92AA6991A617315017 /* Pods-EasyTabbarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyTabbarDemo-frameworks.sh"; sourceTree = "<group>"; };
+		39D19395CF39622A7D7DE235AB92EA2D /* libSDAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDAutoLayout.a; path = libSDAutoLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A2A37A9DCAE7E0C66A020F32461C16F /* Pods-EasyTabbarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyTabbarDemo-dummy.m"; sourceTree = "<group>"; };
 		6F5B6054A2F755B9346ACAFF06504BE9 /* Pods-EasyTabbarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyTabbarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		79B347B4A63C552255FEBCB1E8DA337F /* Pods-EasyTabbarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyTabbarDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		7E90B6014BEAC6777F78ED98DE87D70D /* libPods-EasyTabbarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EasyTabbarDemo.a"; path = "libPods-EasyTabbarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F7FD2AEBF3D58B551A34C55F1EA041 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		E43A5FED4E251AA8EE9D557836481672 /* Pods-EasyTabbarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyTabbarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		448122CAE6FCCF607C2CCE05A7CDCB30 /* Frameworks */ = {
+		1ED160672EFDAD777A6E5DB56B986320 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006611F8C20C4FD8144BCEACFAF2AC0B /* Foundation.framework in Frameworks */,
+				38DF12ADB2CF60204878E12658AC1834 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D290ED03B4C709B9ECF72B88DEEB7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790DAA647646231FE957CDD0FF918C23 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FE72E44B5F1CB12FDE70C26CC46B0F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */,
+				F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */,
+				94F7FD2AEBF3D58B551A34C55F1EA041 /* SDAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+		641965D67593C806D301D2B7DB3AD690 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */,
+				82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */,
+				C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */,
+				29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */,
+				08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */,
+				3FE72E44B5F1CB12FDE70C26CC46B0F9 /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				94154202A19A21D16CE49975B0864963 /* Products */,
+				ABCDF8479A0506B3345CF7B496FE2F2D /* Pods */,
+				BD6D4C6B661F32901742F383105F7351 /* Products */,
 				A6B026E7CE5683B481B2111DFC9DD7EA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		94154202A19A21D16CE49975B0864963 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7E90B6014BEAC6777F78ED98DE87D70D /* libPods-EasyTabbarDemo.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A238F43578D4D7EA8140292FC4866143 /* Pods-EasyTabbarDemo */ = {
@@ -77,12 +129,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		ABCDF8479A0506B3345CF7B496FE2F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641965D67593C806D301D2B7DB3AD690 /* SDAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6D4C6B661F32901742F383105F7351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2074C7D9E35D223C038EA04201169F91 /* libPods-EasyTabbarDemo.a */,
+				39D19395CF39622A7D7DE235AB92EA2D /* libSDAutoLayout.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -95,21 +164,52 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F2CC9BA0621908CDCA286308065CFD9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2668F7C08A641F5EB7F72FA02E227F /* SDAutoLayout.h in Headers */,
+				48E4D395A4CA47FF7E2EBE79015D5A0E /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				D9C1B4A120B4C20901654F5AE02D9D84 /* UIView+SDAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		415B431049A1563B8A092A61303D89A2 /* Pods-EasyTabbarDemo */ = {
+		1C168A18BAB8AC8BBA6CE25012225562 /* Pods-EasyTabbarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FBC756A3BA7ACD425AC7C53CC7005CE /* Build configuration list for PBXNativeTarget "Pods-EasyTabbarDemo" */;
+			buildConfigurationList = F42BF391DE5A23BEAC3F7B61F0E5A92E /* Build configuration list for PBXNativeTarget "Pods-EasyTabbarDemo" */;
 			buildPhases = (
-				9B9F51354C41A8575E19BFDB48B1B356 /* Sources */,
-				448122CAE6FCCF607C2CCE05A7CDCB30 /* Frameworks */,
+				180EA408EDFF02CE2DD2A62FF9375E37 /* Sources */,
+				5D290ED03B4C709B9ECF72B88DEEB7D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893444D8ED7DB0181A380E893ED4D436 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyTabbarDemo";
+			productName = "Pods-EasyTabbarDemo";
+			productReference = 2074C7D9E35D223C038EA04201169F91 /* libPods-EasyTabbarDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F6FD133B65E4028E8922205200C3FD88 /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B50E8244AB496260B228C74D338CCA /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				2000DD68157A61E1F6886529B01D8D90 /* Sources */,
+				1ED160672EFDAD777A6E5DB56B986320 /* Frameworks */,
+				F2CC9BA0621908CDCA286308065CFD9C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-EasyTabbarDemo";
-			productName = "Pods-EasyTabbarDemo";
-			productReference = 7E90B6014BEAC6777F78ED98DE87D70D /* libPods-EasyTabbarDemo.a */;
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 39D19395CF39622A7D7DE235AB92EA2D /* libSDAutoLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,64 +229,64 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 94154202A19A21D16CE49975B0864963 /* Products */;
+			productRefGroup = BD6D4C6B661F32901742F383105F7351 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				415B431049A1563B8A092A61303D89A2 /* Pods-EasyTabbarDemo */,
+				1C168A18BAB8AC8BBA6CE25012225562 /* Pods-EasyTabbarDemo */,
+				F6FD133B65E4028E8922205200C3FD88 /* SDAutoLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B9F51354C41A8575E19BFDB48B1B356 /* Sources */ = {
+		180EA408EDFF02CE2DD2A62FF9375E37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F81872C3C793CE438FCD45F7183BD3 /* Pods-EasyTabbarDemo-dummy.m in Sources */,
+				6A17701B3277219BFA10428AD625B1FE /* Pods-EasyTabbarDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2000DD68157A61E1F6886529B01D8D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60AB76AC4B42112C369654A450CAA65 /* SDAutoLayout-dummy.m in Sources */,
+				0B6CF37EACD54AFECDEF3795FD001720 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				D52D08F35B007E27E3298F9C2B44ED7B /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		1CE1084E2EA8EED52B99CC2C704E6443 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E43A5FED4E251AA8EE9D557836481672 /* Pods-EasyTabbarDemo.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		893444D8ED7DB0181A380E893ED4D436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = F6FD133B65E4028E8922205200C3FD88 /* SDAutoLayout */;
+			targetProxy = C72076601D127B2DFF0AD53C67D1D1AD /* PBXContainerItemProxy */;
 		};
-		32A7F05FF8BC16CC6AE7BDF735CECA14 /* Debug */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55457F3521D11E7E7FDB1052FCBBC8A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79B347B4A63C552255FEBCB1E8DA337F /* Pods-EasyTabbarDemo.debug.xcconfig */;
+			baseConfigurationReference = F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -243,6 +343,47 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BFB29BC57484D484863B87542651A0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B347B4A63C552255FEBCB1E8DA337F /* Pods-EasyTabbarDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB078B3410F94607A9D18AC77738C877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43A5FED4E251AA8EE9D557836481672 /* Pods-EasyTabbarDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -306,6 +447,28 @@
 			};
 			name = Debug;
 		};
+		EE4463A90D5E5C35800A3AACF31F0481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -318,11 +481,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FBC756A3BA7ACD425AC7C53CC7005CE /* Build configuration list for PBXNativeTarget "Pods-EasyTabbarDemo" */ = {
+		83B50E8244AB496260B228C74D338CCA /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32A7F05FF8BC16CC6AE7BDF735CECA14 /* Debug */,
-				1CE1084E2EA8EED52B99CC2C704E6443 /* Release */,
+				55457F3521D11E7E7FDB1052FCBBC8A8 /* Debug */,
+				EE4463A90D5E5C35800A3AACF31F0481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42BF391DE5A23BEAC3F7B61F0E5A92E /* Build configuration list for PBXNativeTarget "Pods-EasyTabbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB29BC57484D484863B87542651A0FE /* Debug */,
+				DB078B3410F94607A9D18AC77738C877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

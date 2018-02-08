@@ -70,7 +70,7 @@
         if (![_currentView isEqual:btnView]) {
             //重复点击
             _currentView.isSelected = NO;
-            _currentView.imageName = _normalImageArray[tag-100];
+            _currentView.imageName = _normalImageArray[_currentView.tag-100];
         }
         _currentView = btnView;
         if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectedIndex:)]) {

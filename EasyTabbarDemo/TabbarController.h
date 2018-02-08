@@ -1,0 +1,13 @@
+//
+//  TabbarController.h
+//  JD
+//
+//  Created by 腾盈 on 2018/2/7.
+//  Copyright © 2018年 腾盈. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface TabbarController : UITabBarController
+
+@end
